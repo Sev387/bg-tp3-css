@@ -71,7 +71,7 @@ margin-left: 10px;
 .showcase{
     width: 100%;
     height: 400px;
-    background: url(img/slide1.png) no-repeat center 15px;
+    background: url("../img/slide1.png") no-repeat center 15px;
     background-size: 30%;
     display: flex;
     flex-direction: column;
@@ -148,7 +148,7 @@ margin-left: 10px;
 #bigData-intro{
     width: 100%;
     height: 350px;
-    background: url(img/bigData.png) no-repeat center center / cover;;
+    background: url("../img/bigData.png") no-repeat center center / cover;;
     margin-bottom: 20px;
     padding-bottom: 100px;
 }
@@ -166,9 +166,107 @@ margin-left: 10px;
     margin-bottom: 20px;
 }
 
+.ruban {
+    width: 100%;
+    height: 350px;
+    background: url("../img/carbon2.jpg") no-repeat center;
+    background-size: 100% 100%;
+    border: none;
+}
+
+.ruban .content {
+    width: 55%;
+    color: white;
+    padding-top: 80px;
+    padding-left: 20px;
+}
+
+.ruban  .content p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
 
 
-.ruban, .follow, .links, .sub-footer {
+.dark{
+    background-color: #333333;
+    color: white;
+}
+
+.dark .btn {
+    background-color: #03254c;
+    color: white;
+}
+
+
+.follow{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.follow p{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.follow > * {
+    margin-right: 10px;
+}
+
+.follow span{
+    color: black;
+   font-size: 30px;
+}
+
+
+.footer {
+    background-color: transparent;
+    height: auto;
+    border: none;
+}
+
+.links{
+    background-color: #f2f2f2;
+    color: #616161;
+    padding: 35px 0;
+    height: auto;
+    font-size: 12px;
+    border: none;
+}
+
+.links-inner{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1000px;
+}
+
+.links ul{
+    list-style: none;
+
+}
+.links li{
+    line-height: 2.8;
+}
+
+
+.links a {
+    text-decoration: none;
+    color: #616161;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+
+.sub-footer {
     background-color: #d3eaac;
   border: 1px solid black;
     width: 100%;
